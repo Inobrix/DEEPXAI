@@ -22,4 +22,21 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.splash, name='splash'),
     path('home/', views.home, name='home'),
+    path('agi/', views.agi, name='agi'),
+    path('mathintel/', views.mathintel, name='mathintel'),
+    path('aisafety/', views.aisafety, name = 'aisafety'),
+    path('agifuture/', views.agifuture, name= 'agifuture'),
+    path('mathai/', views.mathai, name='mathai'),
+    path('deepxai/', views.deepxai, name='deepxai'),
+    path('aitutorials/', views.aitutorials, name='aitutorials'),
+    path('ailearning/', views.ailearning, name='ailearning'),
+    path('aicoding/', views.aicoding, name='aicoding'),
+   
+
+
+    
+
+    
+    
+         
 ]

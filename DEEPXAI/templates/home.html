@@ -649,12 +649,7 @@
                     DX-AI Learning
                 </a>
             </li>
-            <li>
-                <a href="#news">
-                    <i class="fa-solid fa-pen"></i>
-                    DX-AI News
-                </a>
-            </li>
+            
 
 
 
@@ -826,17 +821,25 @@
         <div class="grid">
 
             <div class="card">
-                <h3>Mathematical Intelligence</h3>
+                <a href="mathintel.html">
+                    <h3>Mathematical Intelligence</h3>
+                </a>
                 <p>Researching symbolic reasoning and logic-based intelligence systems.</p>
             </div>
 
             <div class="card">
-                <h3>AGI Concepts</h3>
+                <a href="agi.html">
+                    <h3>AGI Concepts</h3>
+                </a>
+                
+                </a>
                 <p>Exploring future generalized intelligence architectures.</p>
             </div>
 
             <div class="card">
-                <h3>AI Safety</h3>
+                <a href="aisafety.html">
+                    <h3>AI Safety </h3>
+                </a>
                 <p>Investigating responsible and aligned intelligent systems.</p>
             </div>
 
@@ -913,17 +916,27 @@
         <div class="grid">
 
             <div class="card">
-                <h3>The Future of AGI</h3>
+                <a href="{% url 'agifuture' %}">
+                    <h3>The Future of AGI</h3>
+                </a>
                 <p>Understanding the path toward generalized intelligence systems.</p>
             </div>
 
+
+
             <div class="card">
-                <h3>Building Mathematical AI</h3>
+                <a href="{% url 'mathai' %}">
+                    <h3>Mathematical AI</h3>
+
+
+                </a>
                 <p>How symbolic reasoning can enhance modern language models.</p>
             </div>
 
             <div class="card">
-                <h3>Inside DeepXAI</h3>
+                <a href="{% url 'deepxai' %}">
+                    <h3>Inside DeepXAI</h3>
+                </a>
                 <p>Development journey, experiments, and startup vision.</p>
             </div>
 
@@ -939,65 +952,46 @@
 
         <p class="section-subtitle">
 
-            AI insights, development logs, research discussions,
-            and future technology explorations.
+            AI Learning resources , tutorials and educational content on AI
 
         </p>
 
         <div class="grid">
 
             <div class="card">
-                <h3>The Future of AGI</h3>
+                <a href="{% url 'aitutorials' %}">
+                    <h3>AI Tutorials</h3>
+                </a>
                 <p>Understanding the path toward generalized intelligence systems.</p>
             </div>
 
             <div class="card">
-                <h3>Building Mathematical AI</h3>
-                <p>How symbolic reasoning can enhance modern language models.</p>
+                <a href="{% url 'ailearning' %}">
+                    <h3>AI Learning</h3>
+                </a>
+                <p>Exploring the fundamentals of artificial intelligence.</p>
             </div>
 
             <div class="card">
-                <h3>Inside DeepXAI</h3>
-                <p>Development journey, experiments, and startup vision.</p>
+                <a href="{% url 'aicoding' %}">
+                    <h3>AI Coding</h3>
+                </a>
+                <p>Practical programming techniques for AI development.</p>
             </div>
 
         </div>
 
+            
     </section>
 
-    <section id="news">
+     
 
-        <h2 class="section-title">
-            News and Announcements
-        </h2>
 
-        <p class="section-subtitle">
 
-           Stay updated with the latest news, product launches, research and development updates happeining in the AI World
 
-        </p>
 
-        <div class="grid">
-
-            <div class="card">
-                <h3>The Future of AGI</h3>
-                <p>Understanding the path toward generalized intelligence systems.</p>
-            </div>
-
-            <div class="card">
-                <h3>Building Mathematical AI</h3>
-                <p>How symbolic reasoning can enhance modern language models.</p>
-            </div>
-
-            <div class="card">
-                <h3>Inside DeepXAI</h3>
-                <p>Development journey, experiments, and startup vision.</p>
-            </div>
-
-        </div>
-
-    </section>
-
+    
+    
 
 
     <footer id="contact">
@@ -1025,4 +1019,4 @@
     </footer>
 
 </body>
-</html>
+</html>  

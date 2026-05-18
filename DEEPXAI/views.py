@@ -8,4 +8,41 @@ def splash(request):
 def home(request):
     return render(request, 'home.html')
 
+def agi(request):
+    return render(request, 'agi.html')
+
+def mathintel(request):
+    return render(request, 'mathintel.html')
+
+def aisafety(request):
+    return render(request, 'aisafety.html')
+
+def agifuture(request):
+    return render(request, 'agifuture.html')
+
+def mathai(request):
+    return render(request, 'mathai.html')
+
+def deepxai(request):
+    return render(request, 'deepxai.html')
+
+def aitutorials(request):
+    return render(request, 'aitutorials.html')
+
+def ailearning(request):
+    return render(request, 'ailearning.html')
+
+def aicoding(request):
+    return render(request, "aicoding.html")
+
+
+
+
+
+
+
+
+
+
+
 
