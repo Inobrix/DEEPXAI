@@ -36,7 +36,25 @@ def aicoding(request):
     return render(request, "aicoding.html")
 
 
+def deepxai(request):
+    return render(request, 'deepxai.html')
 
+def ai_research(request):
+    return render (request, 'ai_research.html')
+
+def ai_models(request):
+    return render(request, 'ai_models.html')
+
+def ai_blogs(request):
+    return render(request, 'ai_blogs.html')
+
+def ai_learning(request):
+    return render(request, 'ai_learning.html')
+
+def ai_tools(request):
+    return render(request, 'ai_tools.html')
+
+    
 
 
 

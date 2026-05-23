@@ -31,6 +31,16 @@ urlpatterns = [
     path('aitutorials/', views.aitutorials, name='aitutorials'),
     path('ailearning/', views.ailearning, name='ailearning'),
     path('aicoding/', views.aicoding, name='aicoding'),
+
+    
+   
+
+
+
+   
+
+
+    
    
 
 
